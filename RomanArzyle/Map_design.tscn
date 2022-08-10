@@ -17,4 +17,4 @@ transform = Transform( 1, 0, 0, 0, 1.00163, 0, 0, 0, 1, 0, 3, 0 )
 shape = SubResource( 1 )
 
 [node name="KinematicBody" parent="." index="3" instance=ExtResource( 2 )]
-transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0.879698, 0 )
+transform = Transform( -0.0748759, 0, 0.0662842, 0, 0.1, 0, -0.0662842, 0, -0.0748759, 10.4533, -0.171806, 5.96884 )

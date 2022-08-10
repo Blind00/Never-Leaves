@@ -1,9 +1,9 @@
 extends KinematicBody
 
-var speed = 2
+var speed = 1.75
 var acceleration = 16
-var gravity = 12
-var jump = 4
+var gravity = 6.5
+var jump = 2
 
 var mouse_sense = 0.1
 #This creates the button imputs effection on the game eg (Speed of character jump height)
