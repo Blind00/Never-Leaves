@@ -51,6 +51,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.891891, 3.10618, 0 )
 [node name="Camera" type="Camera" parent="Head"]
 transform = Transform( -4.37114e-08, -0.00108211, -0.999999, -4.72489e-11, 0.999999, -0.00108211, 1, -5.16913e-14, -4.37114e-08, 0, 0, 0 )
 current = true
+fov = 65.3
 
 [node name="CollisionShape2" type="CollisionShape" parent="."]
 transform = Transform( 0.467036, 0, 0, 0, 1.63777, 0, 0, 0, 0.64699, 0, 1.60602, 0 )
