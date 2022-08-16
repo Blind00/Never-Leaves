@@ -23,7 +23,7 @@ radius = 0.931791
 height = 0.002
 
 [sub_resource type="PlaneMesh" id=5]
-size = Vector2( 0.042, 0.003 )
+size = Vector2( 0.575, 0.052 )
 
 [sub_resource type="BoxShape" id=4]
 
@@ -57,7 +57,7 @@ current = true
 fov = 65.3
 
 [node name="CPUParticles" type="CPUParticles" parent="Head/Camera"]
-transform = Transform( 1.604, 4.37099e-11, -2.46919e-09, -6.99632e-08, 6.86195e-06, -0.0569987, -6.96321e-08, 0.000999977, 0.000391131, 0.0987597, -0.100385, -0.559454 )
+transform = Transform( 1.604, 4.37099e-11, -2.46919e-09, -6.99631e-08, 6.86195e-06, -0.0569987, -6.96321e-08, 0.000999977, 0.000391131, 0.0987596, -0.101388, -1.48543 )
 amount = 66
 lifetime = 0.05
 preprocess = 1.42
@@ -67,9 +67,9 @@ randomness = 0.15
 lifetime_randomness = 0.09
 mesh = SubResource( 5 )
 emission_shape = 5
-emission_ring_radius = 0.5
+emission_ring_radius = 9.67
 emission_ring_inner_radius = 0.0
-emission_ring_height = 32.19
+emission_ring_height = 34.02
 emission_ring_axis = Vector3( 0, 0, 1 )
 direction = Vector3( 0, 0, 0 )
 spread = 9.91

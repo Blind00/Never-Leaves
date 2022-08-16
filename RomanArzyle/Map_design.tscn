@@ -39,7 +39,6 @@ glow_enabled = true
 glow_levels/1 = true
 glow_levels/3 = false
 glow_levels/5 = false
-glow_levels/7 = true
 glow_intensity = 3.93
 glow_bloom = 0.19
 glow_blend_mode = 3
@@ -64,6 +63,13 @@ shape = SubResource( 1 )
 
 [node name="KinematicBody" parent="." index="3" instance=ExtResource( 2 )]
 transform = Transform( 0.012445, 0, 0.0992226, 0, 0.1, 0, -0.0992226, 0, 0.012445, 9.58353, -0.171806, 6.49124 )
+
+[node name="Camera" parent="KinematicBody/Head" index="0"]
+transform = Transform( -4.37113e-08, -0.00108211, -0.999999, -4.72489e-11, 0.999999, -0.00108211, 1, -5.16288e-14, -4.37113e-08, 0, 0, 0 )
+fov = 80.1
+
+[node name="CPUParticles" parent="KinematicBody/Head/Camera" index="0"]
+transform = Transform( 1.604, 4.36557e-11, -2.42653e-09, -6.99802e-08, 6.86195e-06, -0.0569988, 2.98023e-08, 0.000999977, 0.000391131, 0.083725, -0.101572, -1.65654 )
 
 [node name="Lanterns" type="Spatial" parent="." index="4"]
 transform = Transform( 0.25, 0, 0, 0, 0.25, 0, 0, 0, 0.25, 8.60845, -0.488324, 1.76776 )
@@ -368,3 +374,5 @@ transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, 0.470012, -0.367729, -2.
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." index="6"]
 environment = SubResource( 3 )
+
+[editable path="KinematicBody"]
