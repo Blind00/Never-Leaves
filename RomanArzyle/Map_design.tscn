@@ -85,7 +85,7 @@ transform = Transform( 0.012445, 0, 0.0992226, 0, 0.1, 0, -0.0992226, 0, 0.01244
 [node name="Head" parent="KinematicBody" index="2"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.835392, 3.10618, -7.62939e-06 )
 
-[node name="Camera" parent="KinematicBody/Head" index="0"]
+[node name="Camera" parent="KinematicBody/Head" index="1"]
 transform = Transform( -4.37113e-08, -0.00108211, -0.999999, -4.72489e-11, 0.999999, -0.00108211, 1, -5.16288e-14, -4.37113e-08, 0, 0, 0 )
 
 [node name="Lanterns" type="Spatial" parent="." index="4"]
@@ -338,55 +338,64 @@ transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, -6.81553, -0.367729, -1.
 [node name="Tree55" parent="Trees" index="73" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, -5.14835, -0.367729, 0.979408 )
 
-[node name="Tree56" parent="Trees" index="74" instance=ExtResource( 4 )]
+[node name="Tree93" parent="Trees" index="74" instance=ExtResource( 4 )]
+transform = Transform( -0.196608, 0, -0.226595, 0, 0.6, 0, 0.226595, 0, -0.196608, 2.5329, -0.367729, 3.76559 )
+
+[node name="Tree94" parent="Trees" index="75" instance=ExtResource( 4 )]
+transform = Transform( -0.196608, 0, -0.226595, 0, 0.6, 0, 0.226595, 0, -0.196608, 0.809106, -0.367729, 1.45612 )
+
+[node name="Tree95" parent="Trees" index="76" instance=ExtResource( 4 )]
+transform = Transform( -0.196608, 0, -0.226595, 0, 0.6, 0, 0.226595, 0, -0.196608, 2.30305, -0.367729, 2.55887 )
+
+[node name="Tree56" parent="Trees" index="77" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, -6.69762, -0.367729, 1.5602 )
 
-[node name="Tree57" parent="Trees" index="75" instance=ExtResource( 4 )]
+[node name="Tree57" parent="Trees" index="78" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, -5.03044, -0.367729, 3.56086 )
 
-[node name="Tree58" parent="Trees" index="76" instance=ExtResource( 4 )]
+[node name="Tree58" parent="Trees" index="79" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, 1.57763, -0.367729, 1.5602 )
 
-[node name="Tree59" parent="Trees" index="77" instance=ExtResource( 4 )]
+[node name="Tree59" parent="Trees" index="80" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, 3.24481, -0.367729, 3.56086 )
 
-[node name="Tree30" parent="Trees" index="78" instance=ExtResource( 4 )]
+[node name="Tree30" parent="Trees" index="81" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, 4.48493, -0.367729, -8.42177 )
 
-[node name="Tree31" parent="Trees" index="79" instance=ExtResource( 4 )]
+[node name="Tree31" parent="Trees" index="82" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, 3.26718, -0.367729, -5.4872 )
 
-[node name="Tree33" parent="Trees" index="80" instance=ExtResource( 4 )]
+[node name="Tree33" parent="Trees" index="83" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, -10.0663, -0.367729, 4.86894 )
 
-[node name="Tree34" parent="Trees" index="81" instance=ExtResource( 4 )]
+[node name="Tree34" parent="Trees" index="84" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, -10.0663, -0.367729, 2.20986 )
 
-[node name="Tree35" parent="Trees" index="82" instance=ExtResource( 4 )]
+[node name="Tree35" parent="Trees" index="85" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, -12.4835, -0.367729, 1.40037 )
 
-[node name="Tree36" parent="Trees" index="83" instance=ExtResource( 4 )]
+[node name="Tree36" parent="Trees" index="86" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, -12.4835, -0.367729, -0.412558 )
 
-[node name="Tree37" parent="Trees" index="84" instance=ExtResource( 4 )]
+[node name="Tree37" parent="Trees" index="87" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, -13.4361, -0.367729, -1.75803 )
 
-[node name="Tree38" parent="Trees" index="85" instance=ExtResource( 4 )]
+[node name="Tree38" parent="Trees" index="88" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, -13.4724, -0.367729, -3.94885 )
 
-[node name="Tree39" parent="Trees" index="86" instance=ExtResource( 4 )]
+[node name="Tree39" parent="Trees" index="89" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, -15.1323, -0.367729, -3.08123 )
 
-[node name="Tree40" parent="Trees" index="87" instance=ExtResource( 4 )]
+[node name="Tree40" parent="Trees" index="90" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, -16.3501, -0.367729, -0.146664 )
 
-[node name="Tree32" parent="Trees" index="88" instance=ExtResource( 4 )]
+[node name="Tree32" parent="Trees" index="91" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, 4.81994, -0.367729, -5.3218 )
 
-[node name="Tree3" parent="Trees" index="89" instance=ExtResource( 4 )]
+[node name="Tree3" parent="Trees" index="92" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, 1.31527, -0.367729, 2.19787 )
 
-[node name="Tree4" parent="Trees" index="90" instance=ExtResource( 4 )]
+[node name="Tree4" parent="Trees" index="93" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, 0.470012, -0.367729, -2.36585 )
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." index="6"]
