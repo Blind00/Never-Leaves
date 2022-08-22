@@ -68,7 +68,7 @@ transform = Transform( 0.7202, 0, -0.693766, 0, 1, 0, 0.693766, 0, 0.7202, 3.544
 transform = Transform( 0.7202, 0, -0.693766, 0, 1, 0, 0.693766, 0, 0.7202, -4.78734, 0, -41.0286 )
 
 [node name="Lantern7" parent="Lanterns" index="9" instance=ExtResource( 3 )]
-transform = Transform( 0.7202, 0, -0.693766, 0, 1, 0, 0.693766, 0, 0.7202, -43.8083, 0, -27.6914 )
+transform = Transform( 0.7202, 0, -0.693766, 0, 1, 0, 0.693766, 0, 0.7202, -44.3614, 0, -27.2234 )
 
 [node name="Lantern8" parent="Lanterns" index="10" instance=ExtResource( 3 )]
 transform = Transform( 0.260066, 0, -0.965591, 0, 1, 0, 0.965591, 0, 0.260066, -63.1011, 0, -25.967 )
