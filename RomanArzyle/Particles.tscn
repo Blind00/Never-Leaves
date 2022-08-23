@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="CubeMesh" id=1]
+size = Vector3( 3.5, 0.002, 0 )
+
+[node name="Spatial" type="Spatial"]
+
+[node name="CPUParticles" type="CPUParticles" parent="."]
+cast_shadow = 0
+amount = 134
+lifetime = 1.22
+speed_scale = 0.42
+randomness = 0.74
+mesh = SubResource( 1 )
+spread = 68.12
+gravity = Vector3( 0, -4.03, 0 )

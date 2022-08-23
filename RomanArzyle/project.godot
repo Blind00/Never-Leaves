@@ -10,12 +10,16 @@ config_version=4
 
 [application]
 
-config/name="RomanArzyle"
+config/name="Never-LeavesGame"
 config/icon="res://icon.png"
 
 [debug]
 
 settings/stdout/print_fps=true
+
+[display]
+
+window/size/fullscreen=true
 
 [input]
 

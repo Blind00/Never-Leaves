@@ -1,7 +1,60 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=61 format=2]
 
 [ext_resource path="res://Material.material" type="Material" id=1]
 [ext_resource path="res://Nebber1Godot.gd" type="Script" id=2]
+[ext_resource path="res://Particles.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_71.png" type="Texture" id=4]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_70.png" type="Texture" id=5]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_53.png" type="Texture" id=6]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_54.png" type="Texture" id=7]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_61.png" type="Texture" id=8]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_46.png" type="Texture" id=9]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_41.png" type="Texture" id=10]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_52.png" type="Texture" id=12]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_60.png" type="Texture" id=13]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_38.png" type="Texture" id=15]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_45.png" type="Texture" id=16]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_43.png" type="Texture" id=17]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_63.png" type="Texture" id=19]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_64.png" type="Texture" id=20]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_36.png" type="Texture" id=22]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_51.png" type="Texture" id=24]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_49.png" type="Texture" id=25]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_37.png" type="Texture" id=26]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_44.png" type="Texture" id=27]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_48.png" type="Texture" id=28]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_55.png" type="Texture" id=29]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_62.png" type="Texture" id=30]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_58.png" type="Texture" id=32]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_39.png" type="Texture" id=33]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_47.png" type="Texture" id=34]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_56.png" type="Texture" id=35]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_65.png" type="Texture" id=36]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_67.png" type="Texture" id=37]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_68.png" type="Texture" id=38]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_69.png" type="Texture" id=39]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_03.png" type="Texture" id=40]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_06.png" type="Texture" id=41]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_05.png" type="Texture" id=42]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_08.png" type="Texture" id=48]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_04.png" type="Texture" id=49]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_18.png" type="Texture" id=50]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_16.png" type="Texture" id=54]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_07.png" type="Texture" id=55]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_23.png" type="Texture" id=57]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_20.png" type="Texture" id=58]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_27.png" type="Texture" id=59]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_35.png" type="Texture" id=61]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_22.png" type="Texture" id=63]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_24.png" type="Texture" id=64]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_29.png" type="Texture" id=67]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_31.png" type="Texture" id=68]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_28.png" type="Texture" id=69]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_32.png" type="Texture" id=70]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_33.png" type="Texture" id=71]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_21.png" type="Texture" id=72]
+[ext_resource path="res://Textures/GranularElementaryIncatern-size_restricted/overlay_30.png" type="Texture" id=73]
+[ext_resource path="res://AnimatedSprite3D.gd" type="Script" id=76]
 
 [sub_resource type="ArrayMesh" id=1]
 resource_name = "nebber1_Cube"
@@ -22,8 +75,16 @@ surfaces/0 = {
 radius = 0.931791
 height = 0.002
 
-[sub_resource type="PlaneMesh" id=5]
-size = Vector2( 0.042, 0.003 )
+[sub_resource type="CubeMesh" id=5]
+size = Vector3( 2.433, 0.112, 0.011 )
+
+[sub_resource type="SpriteFrames" id=6]
+animations = [ {
+"frames": [ ExtResource( 40 ), ExtResource( 49 ), ExtResource( 42 ), ExtResource( 41 ), ExtResource( 55 ), ExtResource( 48 ), ExtResource( 54 ), ExtResource( 50 ), ExtResource( 58 ), ExtResource( 72 ), ExtResource( 63 ), ExtResource( 57 ), ExtResource( 64 ), ExtResource( 59 ), ExtResource( 69 ), ExtResource( 67 ), ExtResource( 73 ), ExtResource( 68 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 61 ), ExtResource( 22 ), ExtResource( 26 ), ExtResource( 15 ), ExtResource( 33 ), ExtResource( 10 ), ExtResource( 17 ), ExtResource( 27 ), ExtResource( 16 ), ExtResource( 9 ), ExtResource( 34 ), ExtResource( 28 ), ExtResource( 25 ), ExtResource( 24 ), ExtResource( 12 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 29 ), ExtResource( 35 ), ExtResource( 32 ), ExtResource( 13 ), ExtResource( 8 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 5 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "default",
+"speed": 25.0
+} ]
 
 [sub_resource type="BoxShape" id=4]
 
@@ -49,16 +110,14 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.570638, 0 )
 shape = SubResource( 3 )
 
 [node name="Head" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.891891, 3.10618, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.835393, 3.10618, 0 )
 
-[node name="Camera" type="Camera" parent="Head"]
-transform = Transform( -4.37114e-08, -0.00108211, -0.999999, -4.72489e-11, 0.999999, -0.00108211, 1, -5.16913e-14, -4.37114e-08, 0, 0, 0 )
-current = true
-fov = 65.3
-
-[node name="CPUParticles" type="CPUParticles" parent="Head/Camera"]
-transform = Transform( 1.604, 4.37099e-11, -2.46919e-09, -6.99632e-08, 6.86195e-06, -0.0569987, -6.96321e-08, 0.000999977, 0.000391131, 0.0987597, -0.100385, -0.559454 )
-amount = 66
+[node name="CPUParticles" type="CPUParticles" parent="Head"]
+transform = Transform( -4.05315e-10, -0.000999984, -0.000329452, -6.99635e-08, 5.77986e-06, -0.0569991, 1.604, -4.16334e-16, -2.48628e-09, 1.52434, -0.0997794, 0.0437066 )
+visible = false
+cast_shadow = 0
+generate_lightmap = false
+amount = 500
 lifetime = 0.05
 preprocess = 1.42
 speed_scale = 1.01
@@ -72,11 +131,40 @@ emission_ring_inner_radius = 0.0
 emission_ring_height = 32.19
 emission_ring_axis = Vector3( 0, 0, 1 )
 direction = Vector3( 0, 0, 0 )
-spread = 9.91
-gravity = Vector3( -3.196, 1.21, 0 )
+spread = 6.61
+gravity = Vector3( 0, 0.103, 0 )
 scale_amount = 0.8
 color = Color( 0.458824, 0.458824, 0.458824, 1 )
+
+[node name="Camera" type="Camera" parent="Head"]
+transform = Transform( -4.37114e-08, -0.00108211, -0.999999, -4.72489e-11, 0.999999, -0.00108211, 1, -5.16913e-14, -4.37114e-08, 0, 0, 0 )
+current = true
+fov = 65.3
+
+[node name="OmniLight" type="OmniLight" parent="Head"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.00121, -0.159888, 0 )
+visible = false
+light_energy = 0.266
+light_indirect_energy = 1.734
+light_specular = 1.321
+shadow_bias = 0.132
+omni_range = 0.610031
+omni_attenuation = 0.101531
+omni_shadow_detail = 0
+
+[node name="Spatial" parent="Head" instance=ExtResource( 3 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1.13541, 1, 0 )
+visible = false
+
+[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="Head"]
+transform = Transform( -4.37114e-08, 0, -1, 0, 0.502135, 0, 0.563198, 0, -2.46182e-08, 0.590531, 0, 0 )
+opacity = 0.01
+frames = SubResource( 6 )
+frame = 11
+script = ExtResource( 76 )
 
 [node name="CollisionShape2" type="CollisionShape" parent="."]
 transform = Transform( 0.467036, 0, 0, 0, 1.63777, 0, 0, 0, 0.64699, 0, 1.60602, 0 )
 shape = SubResource( 4 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
