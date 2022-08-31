@@ -28,9 +28,6 @@ shape = SubResource( 1 )
 [node name="KinematicBody" parent="." index="3" instance=ExtResource( 2 )]
 transform = Transform( 0.012445, 0, 0.0992226, 0, 0.1, 0, -0.0992226, 0, 0.012445, 9.58353, -0.171806, 6.49124 )
 
-[node name="Cube" parent="KinematicBody/nebber1" index="0"]
-transform = Transform( 0.467036, 0, 0, 0, 1.63777, 0, 0, 0, 0.64699, 0, 1.60602, 0 )
-
 [node name="Head" parent="KinematicBody" index="2"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.835392, 3.10618, -7.62939e-06 )
 
