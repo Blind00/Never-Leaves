@@ -15,9 +15,11 @@ data = PoolVector3Array( 6.6008, 3.4299, -10.8419, 12.9432, -3.4866, -0.4922, 6.
 
 [sub_resource type="Environment" id=2]
 background_energy = 0.0
+ambient_light_color = Color( 0.227451, 0.313726, 0.345098, 1 )
 ambient_light_energy = 0.0
+ambient_light_sky_contribution = 0.0
 fog_enabled = true
-fog_color = Color( 0.321569, 0.321569, 0.321569, 1 )
+fog_color = Color( 0.45098, 0.45098, 0.45098, 1 )
 fog_depth_begin = 0.0
 fog_depth_end = 23.8
 fog_transmit_enabled = true
@@ -25,7 +27,7 @@ fog_transmit_curve = 0.594604
 fog_height_enabled = true
 fog_height_min = -0.1
 fog_height_max = -0.5
-fog_height_curve = 2.29739
+fog_height_curve = 1.93187
 dof_blur_far_enabled = true
 dof_blur_far_distance = 2.73
 dof_blur_far_transition = 9.28

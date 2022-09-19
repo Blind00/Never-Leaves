@@ -54,3 +54,9 @@ shape = SubResource( 4 )
 [node name="CollisionShape" type="CollisionShape" parent="StaticBody" index="0"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.926581, 2.53047, 4.05599 )
 shape = SubResource( 5 )
+
+[node name="OmniLight" type="OmniLight" parent="." index="7"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.39242, 9.29405 )
+light_color = Color( 0.4, 0.372549, 0.372549, 1 )
+light_energy = 0.5
+omni_range = 2.23243
