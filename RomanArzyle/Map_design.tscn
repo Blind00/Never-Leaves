@@ -5,7 +5,7 @@
 [ext_resource path="res://Lantern.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Tree.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Forest Sound - Ambient.tscn" type="PackedScene" id=5]
-[ext_resource path="res://TreePlane.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Tree2-5.tscn" type="PackedScene" id=6]
 [ext_resource path="res://A New Wooden Cabin.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Handheld Lantern.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Archway.tscn" type="PackedScene" id=9]
@@ -629,6 +629,63 @@ transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, 1.31527, -0.367729, 2.19
 [node name="Tree4" parent="Trees" index="173" instance=ExtResource( 4 )]
 transform = Transform( 0.3, 0, 0, 0, 0.6, 0, 0, 0, 0.3, 0.470012, -0.367729, -2.36585 )
 
+[node name="Tree2-5" parent="Trees" index="174" instance=ExtResource( 6 )]
+transform = Transform( 0.136934, 0, -0.0704624, 0, 2.554, 0, 0.0704624, 0, 0.136934, -2.75092, 0.0187037, -3.73352 )
+
+[node name="Tree2-6" parent="Trees" index="175" instance=ExtResource( 6 )]
+transform = Transform( 0.139707, 0, -0.0647908, 0, 2.554, 0, 0.0647908, 0, 0.139707, -4.3441, 0.0452106, -4.55328 )
+
+[node name="Tree2-7" parent="Trees" index="176" instance=ExtResource( 6 )]
+transform = Transform( 0.152634, 0, -0.0204634, 0, 2.554, 0, 0.0204634, 0, 0.152634, -6.11408, 0.0187037, -5.07015 )
+
+[node name="Tree2-8" parent="Trees" index="177" instance=ExtResource( 6 )]
+transform = Transform( 0.153857, 0, 0.0066234, 0, 2.554, 0, -0.0066234, 0, 0.153857, -7.88391, 0.0187037, -5.08828 )
+
+[node name="Tree2-9" parent="Trees" index="178" instance=ExtResource( 6 )]
+transform = Transform( 0.121801, 0, 0.0942368, 0, 2.554, 0, -0.0942368, 0, 0.121801, -9.26417, -0.105956, -4.43249 )
+
+[node name="Tree2-10" parent="Trees" index="179" instance=ExtResource( 6 )]
+transform = Transform( 0.0474991, 0, 0.146492, 0, 2.554, 0, -0.146492, 0, 0.0474991, -9.84032, -0.0705235, -2.71901 )
+
+[node name="Tree2-19" parent="Trees" index="180" instance=ExtResource( 6 )]
+transform = Transform( 0.151728, 0, 0.0263579, 0, 2.554, 0, -0.0263579, 0, 0.151728, -9.64271, -0.0455253, -1.14563 )
+
+[node name="Tree2-11" parent="Trees" index="181" instance=ExtResource( 6 )]
+transform = Transform( 0.131865, 0, 0.0795461, 0, 2.554, 0, -0.0795461, 0, 0.131865, -11.3239, -0.632606, -1.71624 )
+
+[node name="Tree2-17" parent="Trees" index="182" instance=ExtResource( 6 )]
+transform = Transform( 0.131865, 0, 0.0795461, 0, 2.554, 0, -0.0795461, 0, 0.131865, -11.3239, -0.632606, -0.126145 )
+
+[node name="Tree2-20" parent="Trees" index="183" instance=ExtResource( 6 )]
+transform = Transform( 0.101983, 0, -0.115393, 0, 2.554, 0, 0.115393, 0, 0.101983, -13.3326, -0.0876148, -4.22945 )
+
+[node name="Tree2-24" parent="Trees" index="184" instance=ExtResource( 6 )]
+transform = Transform( 0.0983703, 0, -0.118488, 0, 2.554, 0, 0.118488, 0, 0.0983703, -12.7284, 0.0356543, -3.0509 )
+
+[node name="Tree2-12" parent="Trees" index="185" instance=ExtResource( 6 )]
+transform = Transform( 0.153243, 0, 0.0152551, 0, 2.554, 0, -0.0152551, 0, 0.153243, -15.1398, 0.0257237, -4.05911 )
+
+[node name="Tree2-21" parent="Trees" index="186" instance=ExtResource( 6 )]
+transform = Transform( 0.118818, 0, -0.0979706, 0, 2.554, 0, 0.0979706, 0, 0.118818, -12.8785, 0.168102, -1.11088 )
+
+[node name="Tree2-13" parent="Trees" index="187" instance=ExtResource( 6 )]
+transform = Transform( 0.137968, 0, 0.068416, 0, 2.554, 0, -0.068416, 0, 0.137968, -16.8334, 0.0257237, -3.37179 )
+
+[node name="Tree2-22" parent="Trees" index="188" instance=ExtResource( 6 )]
+transform = Transform( 0.137968, 0, 0.068416, 0, 2.554, 0, -0.068416, 0, 0.137968, -16.9122, 0.0257237, -3.75213 )
+
+[node name="Tree2-15" parent="Trees" index="189" instance=ExtResource( 6 )]
+transform = Transform( 0.137968, 0, 0.068416, 0, 2.554, 0, -0.068416, 0, 0.137968, -18.5171, 0.0257237, -2.4782 )
+
+[node name="Tree2-23" parent="Trees" index="190" instance=ExtResource( 6 )]
+transform = Transform( 0.137968, 0, 0.068416, 0, 2.554, 0, -0.068416, 0, 0.137968, -18.5521, 0.0257237, -3.03437 )
+
+[node name="Tree2-14" parent="Trees" index="191" instance=ExtResource( 6 )]
+transform = Transform( 0.148655, 0, -0.0402215, 0, 2.554, 0, 0.0402215, 0, 0.148655, -18.5424, -0.0554087, -1.22325 )
+
+[node name="Tree2-16" parent="Trees" index="192" instance=ExtResource( 6 )]
+transform = Transform( 0.095106, 0, -0.121123, 0, 2.554, 0, 0.121123, 0, 0.095106, -19.4159, -0.0554087, -1.7377 )
+
 [node name="Audio" parent="." index="6" instance=ExtResource( 5 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.960058, 0 )
 
@@ -643,10 +700,5 @@ transform = Transform( 0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, -6.98633, -0.118236, 4.3
 
 [node name="Handheld Lantern2" parent="." index="10" instance=ExtResource( 8 )]
 transform = Transform( 0.25722, 0, 0.154395, 0, 0.3, 0, -0.154395, 0, 0.25722, -8.02601, -0.0939083, 4.94257 )
-
-[node name="FakeTrees" type="Spatial" parent="." index="11"]
-
-[node name="TreePlane" parent="FakeTrees" index="0" instance=ExtResource( 6 )]
-transform = Transform( 0.0932204, 0, 0.0361934, 0, 0.7, 0, -0.0361934, 0, 0.0932204, -17.8069, -0.666663, -2.63859 )
 
 [editable path="KinematicBody"]
